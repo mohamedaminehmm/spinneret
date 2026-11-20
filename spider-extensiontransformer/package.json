@@ -1,0 +1,12 @@
+{
+  "name": "crawler-spider",
+  "private": true,
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "test": "node tests/core.test.js"
+  },
+  "devDependencies": {
+    "@huggingface/transformers": "^3.0.0",
+    "esbuild": "^0.24.0"
+  }
+}
